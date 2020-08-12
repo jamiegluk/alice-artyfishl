@@ -1,8 +1,8 @@
-# ![Logo](.repo/alice_24x24.png) ArtyFishL Alice
+﻿# ![Logo](.repo/alice_24x24.png) ArtyFishL Alice
 
 > ArtyFishL's Alice worlds, objects and more…
 
-![ArtyFishL](.repo/artyfishl_64x102.jpg)
+[![ArtyFishL](.repo/artyfishl_64x102.jpg)](https://artyfishl.com)
 
 Alice 2.0 is an educational 3D modelling software developed by Carnegie Mellon University.
 I have produced some services, apps and content for this.
@@ -26,6 +26,7 @@ I have produced some services, apps and content for this.
 
 ## See Also
 
+- [Alice Community Archive repo](https://github.com/jamiegluk/alice-community/)
 - [ArtyFishL Alice Apps](https://alice.artyfishl.com/)
 - [Arty-fishL on the Alice Community Forums](https://www.alice.org/forums/member.php?u=2496)
   - [show all threads](https://www.alice.org/forums/search.php?searchid=10581979)

@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>apocalypse-of-the-undead's Code</title>
+</head>
+<body>
+<h1>apocalypse-of-the-undead's Code</h1>
+<h1> Created by: Arty-fishL</h1>
+<h2>world</h2>
+<h3>Methods</h3>
+<table cellpadding="2" cellspacing="0" width="100%">
+<td colspan="6" bgcolor="#d2ffd2" style="border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0">&nbsp;&nbsp;<b>world.aimer</b>&nbsp;(&nbsp;)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>SF</b> <b> = </b> <span style="background-color: #f0f0ff"><b>1</b></span> <b> ,</b> <b>oldMethod</b> <b> = </b> <span style="background-color: #f0f0ff"><b>1</b></span></td>
+</tr>
+<tr>
+<td width="20" rowspan="34" bgcolor="#d2ffd2" style="border-left: 1px solid #c0c0c0; border-bottom: 1px solid #c0c0c0">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td width="100%" colspan="5" bgcolor="#ffffff" style="border-bottom: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0; border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0">&nbsp;&nbsp;<b># </b> <span style="background-color: #f0f0ff"><b>&lt;html&gt;&lt;h2&gt;aim_methods&lt;/h2&gt;&lt;ol&gt;&lt;li&gt; click on enemy to shoot, auto-turn &lt;/li&gt;&lt;li&gt; turning arc (for grenades) relating to mouse distances on screen, shoots in angle of facing and yaw relates to vertical position of mouse</b></span></td>
+<tr>
+<td colspan="5" bgcolor="#d4a017" style="border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0">&nbsp;&nbsp;<b>While</b> <span style="background-color: #f0f0ff"><b>true</b></span> <b></b></td>
+</tr>
+<tr>
+<td width="20" rowspan="32" bgcolor="#d4a017" style="border-left: 1px solid #c0c0c0; border-bottom: 1px solid #c0c0c0">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td colspan="4" bgcolor="#fdd017" style="border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0">&nbsp;&nbsp;<b>If</b> ( <span style="background-color: #f0f0ff"><b>world.aim_method</b></span> <b> == </b> <span style="background-color: #f0f0ff"><b>1</b></span> ) <b></b></td>
+</tr>
+<tr>
+<td width="20" rowspan="1" bgcolor="#fdd017" style="border-left: 1px solid #c0c0c0">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td width="100%" colspan="3" bgcolor="#ffe6b4" style="border-bottom: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0; border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0">&nbsp;&nbsp;<span style="background-color: #f0f0ff"><b>pj</b></span> <b>.setPointOfView(</b> <span style="background-color: #f0f0ff"><b>walk_axis</b></span> <b>)</b> <span style="background-color: #f0f0ff">duration = <b>0 </b> seconds</span> <span style="background-color: #f0f0ff">style = <b>BEGIN_AND_END_ABRUPTLY</b></span></td>
+<tr>
+<td colspan="4" bgcolor="#fdd017" style="border-left: 1 solid #c0c0c0; border-right: 1 solid #c0c0c0">&nbsp;&nbsp;<b>Else</b></td>
+</tr>
+<tr>
+<td width="20" rowspan="0" bgcolor="#fdd017" style="border-left: 1 solid #c0c0c0; border-bottom: 1 solid #c0c0c0">&nbsp;</td>
+<td colspan="3" bgcolor="#fdd017" style="border-right: 1 solid #c0c0c0; border-bottom: 1 solid #c0c0c0"><i> Do Nothing </i></td>
+</tr>
+<tr>
+<td width="100%" colspan="4" bgcolor="#ffe6b4" style="border-bottom: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0; border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0">&nbsp;&nbsp;<span style="background-color: #f0f0ff"><b>oldMethod</b></span> <b>.setValue(</b> <b>value</b> <b>, </b> <span style="background-color: #f0f0ff"><b>world.aim_method</b></span> <b>)</b> <span style="background-color: #f0f0ff">style = <b>BEGIN_AND_END_ABRUPTLY</b></span></td>
+<tr>
+<td colspan="4" bgcolor="#d4a017" style="border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0">&nbsp;&nbsp;<b>While</b> ( <b>(</b> <span style="background-color: #f0f0ff"><b>world.canShoot</b></span> <b> and </b> ( <span style="background-color: #f0f0ff"><b>world.aim_method</b></span> <b> == </b> <span style="background-color: #f0f0ff"><b>oldMethod</b></span> ) <b>)</b> ) <b></b></td>
+</tr>
+<tr>
+<td width="20" rowspan="25" bgcolor="#d4a017" style="border-left: 1px solid #c0c0c0; border-bottom: 1px solid #c0c0c0">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td colspan="3" bgcolor="#71ff71" style="border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0">&nbsp;&nbsp;<b>doTogether</b></td>
+</tr>
+<tr>
+<td width="20" rowspan="2" bgcolor="#71ff71" style="border-left: 1px solid #c0c0c0; border-bottom: 1px solid #c0c0c0">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td width="100%" colspan="2" bgcolor="#ffe6b4" style="border-bottom: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0; border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0">&nbsp;&nbsp;<b>exec('</b> <span style="background-color: #f0f0ff"><b>world.wsY = vars[&quot;win_sizeY&quot;]</b></span> <b>')</b></td>
+<tr>
+<td width="100%" colspan="2" bgcolor="#ffe6b4" style="border-bottom: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0; border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0">&nbsp;&nbsp;<b>exec('</b> <span style="background-color: #f0f0ff"><b>world.wsX = vars[&quot;win_sizeX&quot;]</b></span> <b>')</b></td>
+<tr>
+<td width="100%" colspan="3" bgcolor="#ffe6b4" style="border-bottom: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0; border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0">&nbsp;&nbsp;<span style="background-color: #f0f0ff"><b>SF</b></span> <b>.setValue(</b> <b>value</b> <b>, </b> ( <b>(</b> <span style="background-color: #f0f0ff"><b>900</b></span> <b> / </b> <span style="background-color: #f0f0ff"><b>world.wsX</b></span> <b>)</b> ) <b>)</b> <span style="background-color: #f0f0ff">style = <b>BEGIN_AND_END_ABRUPTLY</b></span></td>
+<tr>
+<td colspan="3" bgcolor="#71ff71" style="border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0">&nbsp;&nbsp;<b>doTogether</b></td>
+</tr>
+<tr>
+<td width="20" rowspan="6" bgcolor="#71ff71" style="border-left: 1px solid #c0c0c0; border-bottom: 1px solid #c0c0c0">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td colspan="2" bgcolor="#d4a017" style="border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0">&nbsp;&nbsp;<b>While</b> ( ( <b>RelativePointerInfo().getLocation().getX()</b> ) <b> &lt; </b> <span style="background-color: #f0f0ff"><b>300</b></span> ) <b></b></td>
+</tr>
+<tr>
+<td width="20" rowspan="2" bgcolor="#d4a017" style="border-left: 1px solid #c0c0c0; border-bottom: 1px solid #c0c0c0">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td width="100%" colspan="1" bgcolor="#ffe6b4" style="border-bottom: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0; border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0">&nbsp;&nbsp;<span style="background-color: #f0f0ff"><b>world.do_walk_anim</b></span> <b>.setValue(</b> <b>value</b> <b>, </b> <span style="background-color: #f0f0ff"><b>true</b></span> <b>)</b> <span style="background-color: #f0f0ff">style = <b>BEGIN_AND_END_ABRUPTLY</b></span></td>
+<tr>
+<td width="100%" colspan="1" bgcolor="#ffe6b4" style="border-bottom: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0; border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0">&nbsp;&nbsp;<span style="background-color: #f0f0ff"><b>walk_axis</b></span> <b>.turnAtSpeed(</b> <span style="background-color: #f0f0ff"><b>LEFT</b></span> <b>, </b> ( <b>(</b> <span style="background-color: #f0f0ff"><b>world.turn_speed</b></span> <b> * </b> ( <b>(</b> ( <b>(</b> <span style="background-color: #f0f0ff"><b>300</b></span> <b> - </b> ( <b>RelativePointerInfo().getLocation().getX()</b> ) <b>)</b> ) <b> / </b> <span style="background-color: #f0f0ff"><b>300</b></span> <b>)</b> ) <b>)</b> ) <b>)</b> <span style="background-color: #f0f0ff">duration = <b>at_speed_dur </b> seconds</span></td>
+<tr>
+<td colspan="2" bgcolor="#d4a017" style="border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0">&nbsp;&nbsp;<b>While</b> ( ( <b>RelativePointerInfo().getLocation().getX()</b> ) <b> &gt; </b> <span style="background-color: #f0f0ff"><b>600</b></span> ) <b></b></td>
+</tr>
+<tr>
+<td width="20" rowspan="2" bgcolor="#d4a017" style="border-left: 1px solid #c0c0c0; border-bottom: 1px solid #c0c0c0">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td width="100%" colspan="1" bgcolor="#ffe6b4" style="border-bottom: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0; border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0">&nbsp;&nbsp;<span style="background-color: #f0f0ff"><b>world.do_walk_anim</b></span> <b>.setValue(</b> <b>value</b> <b>, </b> <span style="background-color: #f0f0ff"><b>true</b></span> <b>)</b> <span style="background-color: #f0f0ff">style = <b>BEGIN_AND_END_ABRUPTLY</b></span></td>
+<tr>
+<td width="100%" colspan="1" bgcolor="#ffe6b4" style="border-bottom: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0; border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0">&nbsp;&nbsp;<span style="background-color: #f0f0ff"><b>walk_axis</b></span> <b>.turnAtSpeed(</b> <span style="background-color: #f0f0ff"><b>RIGHT</b></span> <b>, </b> ( <b>(</b> <span style="background-color: #f0f0ff"><b>world.turn_speed</b></span> <b> * </b> ( <b>(</b> ( <b>(</b> ( <b>RelativePointerInfo().getLocation().getX()</b> ) <b> - </b> <span style="background-color: #f0f0ff"><b>600</b></span> <b>)</b> ) <b> / </b> <span style="background-color: #f0f0ff"><b>300</b></span> <b>)</b> ) <b>)</b> ) <b>)</b> <span style="background-color: #f0f0ff">duration = <b>at_speed_dur </b> seconds</span></td>
+<tr>
+<td colspan="3" bgcolor="#fdd017" style="border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0">&nbsp;&nbsp;<b>If</b> ( <b>not(</b> ( <b>(</b> <span style="background-color: #f0f0ff"><b>world.walk_f</b></span> <b> or </b> ( <b>(</b> <span style="background-color: #f0f0ff"><b>world.walk_l</b></span> <b> or </b> ( <b>(</b> <span style="background-color: #f0f0ff"><b>world.walk_r</b></span> <b> or </b> <span style="background-color: #f0f0ff"><b>world.walk_b</b></span> <b>)</b> ) <b>)</b> ) <b>)</b> ) <b>)</b> ) <b></b></td>
+</tr>
+<tr>
+<td width="20" rowspan="1" bgcolor="#fdd017" style="border-left: 1px solid #c0c0c0">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td width="100%" colspan="2" bgcolor="#ffe6b4" style="border-bottom: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0; border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0">&nbsp;&nbsp;<span style="background-color: #f0f0ff"><b>world.do_walk_anim</b></span> <b>.setValue(</b> <b>value</b> <b>, </b> <span style="background-color: #f0f0ff"><b>false</b></span> <b>)</b> <span style="background-color: #f0f0ff">style = <b>BEGIN_AND_END_ABRUPTLY</b></span></td>
+<tr>
+<td colspan="3" bgcolor="#fdd017" style="border-left: 1 solid #c0c0c0; border-right: 1 solid #c0c0c0">&nbsp;&nbsp;<b>Else</b></td>
+</tr>
+<tr>
+<td width="20" rowspan="0" bgcolor="#fdd017" style="border-left: 1 solid #c0c0c0; border-bottom: 1 solid #c0c0c0">&nbsp;</td>
+<td colspan="2" bgcolor="#fdd017" style="border-right: 1 solid #c0c0c0; border-bottom: 1 solid #c0c0c0"><i> Do Nothing </i></td>
+</tr>
+<tr>
+<td width="100%" colspan="3" bgcolor="#ffffff" style="border-bottom: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0; border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0">&nbsp;&nbsp;<b># </b> <span style="background-color: #f0f0ff"><b>aim methods</b></span></td>
+<tr>
+<td colspan="3" bgcolor="#fdd017" style="border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0">&nbsp;&nbsp;<b>If</b> ( <span style="background-color: #f0f0ff"><b>oldMethod</b></span> <b> == </b> <span style="background-color: #f0f0ff"><b>2</b></span> ) <b></b></td>
+</tr>
+<tr>
+<td width="20" rowspan="5" bgcolor="#fdd017" style="border-left: 1px solid #c0c0c0">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td width="100%" colspan="2" bgcolor="#ffe6b4" style="border-bottom: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0; border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0">&nbsp;&nbsp;<span style="background-color: #f0f0ff"><b>pj_turn_dummy</b></span> <b>.setPointOfView(</b> <span style="background-color: #f0f0ff"><b>walk_axis</b></span> <b>)</b> <span style="background-color: #f0f0ff">duration = <b>0 </b> seconds</span> <span style="background-color: #f0f0ff">style = <b>BEGIN_AND_END_ABRUPTLY</b></span></td>
+<tr>
+<td colspan="2" bgcolor="#fdd017" style="border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0">&nbsp;&nbsp;<b>If</b> ( ( <b>(</b> ( <b>RelativePointerInfo().getLocation().getX()</b> ) <b> * </b> ( <b>(</b> <span style="background-color: #f0f0ff"><b>world.wsX</b></span> <b> / </b> <span style="background-color: #f0f0ff"><b>900</b></span> <b>)</b> ) <b>)</b> ) <b> &gt; </b> <span style="background-color: #f0f0ff"><b>450</b></span> ) <b></b></td>
+</tr>
+<tr>
+<td width="20" rowspan="1" bgcolor="#fdd017" style="border-left: 1px solid #c0c0c0">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td width="100%" colspan="1" bgcolor="#ffe6b4" style="border-bottom: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0; border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0">&nbsp;&nbsp;<span style="background-color: #f0f0ff"><b>pj_turn_dummy</b></span> <b>.turn(</b> <span style="background-color: #f0f0ff"><b>LEFT</b></span> <b>, </b> ( <b>(</b> ( <b>(</b> ( <b>RelativePointerInfo().getLocation().getX()</b> ) <b> * </b> ( <b>(</b> <span style="background-color: #f0f0ff"><b>world.wsX</b></span> <b> / </b> <span style="background-color: #f0f0ff"><b>900</b></span> <b>)</b> ) <b>)</b> ) <b> / </b> <span style="background-color: #f0f0ff"><b>world.wsX</b></span> <b>)</b> ) <b>)</b></td>
+<tr>
+<td colspan="2" bgcolor="#fdd017" style="border-left: 1 solid #c0c0c0; border-right: 1 solid #c0c0c0">&nbsp;&nbsp;<b>Else</b></td>
+</tr>
+<tr>
+<td width="20" rowspan="0" bgcolor="#fdd017" style="border-left: 1 solid #c0c0c0; border-bottom: 1 solid #c0c0c0">&nbsp;</td>
+<td colspan="1" bgcolor="#fdd017" style="border-right: 1 solid #c0c0c0; border-bottom: 1 solid #c0c0c0"><i> Do Nothing </i></td>
+</tr>
+<tr>
+<td colspan="3" bgcolor="#fdd017" style="border-left: 1 solid #c0c0c0; border-right: 1 solid #c0c0c0">&nbsp;&nbsp;<b>Else</b></td>
+</tr>
+<tr>
+<td width="20" rowspan="0" bgcolor="#fdd017" style="border-left: 1 solid #c0c0c0; border-bottom: 1 solid #c0c0c0">&nbsp;</td>
+<td colspan="2" bgcolor="#fdd017" style="border-right: 1 solid #c0c0c0; border-bottom: 1 solid #c0c0c0"><i> Do Nothing </i></td>
+</tr>
+<tr>
+<td width="100%" colspan="3" bgcolor="#ffe6b4" style="border-bottom: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0; border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0">&nbsp;&nbsp;<b>time.sleep(</b> <span style="background-color: #f0f0ff"><b>pause_dur </b> seconds</span> <b>)</b></td>
+<tr>
+<td width="100%" colspan="4" bgcolor="#ffe6b4" style="border-bottom: 1px solid #c0c0c0; border-right: 1px solid #c0c0c0; border-left: 1px solid #c0c0c0; border-top: 1px solid #c0c0c0">&nbsp;&nbsp;<b>time.sleep(</b> <span style="background-color: #f0f0ff"><b>pause_dur </b> seconds</span> <b>)</b></td>
+
+</table>
+<br>
+<br>
+</body>
+</html>
