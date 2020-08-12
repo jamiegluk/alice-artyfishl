@@ -33,6 +33,7 @@ LICENSE           text
 *.jpg             binary
 *.jpeg            binary
 *.png             binary
+*.tif             binary
 # SVG treated as an asset (binary) by default.
 *.svg             text
 
@@ -48,8 +49,22 @@ LICENSE           text
 # Archives
 *.jar             binary
 *.zip             binary
-*.a2w             binary
-*.a2c             binary
+*.a2w             zip
+*.a2c             zip
+
+# Models
+*.3ds             binary
+*.ase             text
+*.asf             binary
+*.amc             text
+*.c3d             binary
+*.dae             text
+*.max             binary
+*.mtl             text
+*.ms              text
+*.obj             text
+*.tga             binary
+*.tvd             binary
 
 # Executables
 *.exe             binary
