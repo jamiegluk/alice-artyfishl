@@ -4,7 +4,7 @@
 
 [![ArtyFishL](.repo/artyfishl_64x102.jpg)](https://artyfishl.com)
 
-Alice 2.0 is an educational 3D games and animation development software developed by Carnegie Mellon University.  
+Alice 2.0 is an educational 3D games and animation development software distributed by Carnegie Mellon University.  
 I have produced some services, apps and content for this.
 
 ## Usage
@@ -48,4 +48,4 @@ My logo, name and brand are held under Copyright, do not abuse this.
 © Copyright Jamie Lievesley 2020.  
 See [COPYRIGHT](COPYRIGHT.md).
 
-I have attempted to host all of my sharable content I could find. This was stored in a very unorganised manner So, if you believe that you, or another person, actually owns the rights to any of this content, please inform me, or submit a pull request, and I will remove any infringing works. 
+I have attempted to host all of my sharable content I could find. This was stored in a very unorganised manner. So, if you believe that you, or another person, actually owns the rights to any of this content, please inform me, or submit a pull request, and I will remove any infringing works. 
