@@ -4,7 +4,7 @@
 
 [![ArtyFishL](.repo/artyfishl_64x102.jpg)](https://artyfishl.com)
 
-Alice 2.0 is an educational 3D modelling software developed by Carnegie Mellon University.
+Alice 2.0 is an educational 3D games and animation devlopment software developed by Carnegie Mellon University.  
 I have produced some services, apps and content for this.
 
 ## Usage
