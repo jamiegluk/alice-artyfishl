@@ -1,6 +1,6 @@
 ﻿# ![Logo](.repo/alice_24x24.png) ArtyFishL Alice
 
-> ArtyFishL's Alice worlds, objects and more…
+> **ArtyFishL's Alice worlds, objects and more…**
 
 [![ArtyFishL](.repo/artyfishl_64x102.jpg)](https://artyfishl.com)
 
