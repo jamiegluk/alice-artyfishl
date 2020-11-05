@@ -1,0 +1,11 @@
+TERMINAL CODES:
+____________________
+blank				-- no code
+textbox{}TITLE{}MESSAG		-- plain dialog - close options - <h2> header ... horizontal line ... plain text
+openweb{}URL{}LINKNAME		-- opens web page in default browser - information dialog - standard message - uses names
+aliceuser{}URL{}USERNAME	-- opens web page in default browser - information dialog - standard message - uses names
+getprofile{}USERNAME		-- brings up the profile of username
+mail{}USERNAME			-- searches profile for contact details - brings up options for mailing type
+email{}EMAIL			-- brings up email application for email address
+prePop{}POPUP NAME		-- opens a predefined popup box
+updateMan{}run			-- runs update manager

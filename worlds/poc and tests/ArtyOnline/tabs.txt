@@ -1,0 +1,55 @@
+--home
+
+what's new
+  < network set list
+recent activity
+  < network set list
+events
+  < network set list
+help
+  > 0 - help for Arty_Online
+  > blank
+  > pop - game manuals
+  > pop - game pages
+  > pop - network help
+  > pop - atomm help
+  > www - alice help
+  > >> - check for updates
+Arty-fishL
+  > 0 - creator of Alice_Online, Atomm
+  > - - and all afiliated programs
+  > blank
+  > www - website
+  > www - Alice community profile
+  > >> - Alice_Online profile
+  > mail - contact 
+
+--settings
+
+atomm
+game
+file
+visual
+audio
+network
+
+--games
+
+my games
+awards
+leaderboards
+aodb
+current
+
+--network
+
+create account/sign in/status (sign out/status)
+my account
+bug report
+grief report
+
+--friends
+list
+manage (add delete block)
+chat
+mail

@@ -1,0 +1,20 @@
+import string, threading, time
+
+class install:
+	def A(self):
+		class MyThread ( threading.Thread ):
+			def run ( self ):
+				world.speedMultiplier = 0.0
+				jpf = javax.swing.JPasswordField()
+				text = "<html> <h2>First time installation</h2> <HR> A valid install has not been detected"
+				stuff = text, text
+				instA = javax.swing.JOptionPane.showOptionDialog(None, stuff, "First time installation", 1, 1, hardDriveIcon, ["install now", "remind me later"], "install now")
+				if (instA==0):
+					world.speedMultiplier = 1.0
+					world.bool = true
+				else:
+					world.speedMultiplier = 1.0
+					world.bool = false
+		MyThread().start()
+
+jcba.setEnabled(false)
